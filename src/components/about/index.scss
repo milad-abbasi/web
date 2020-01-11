@@ -1,0 +1,52 @@
+@import '../colors';
+
+.about {
+  position: relative;
+  height: 60vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.about-img {
+  background-image: url('./images/about.jpg');
+}
+
+.about-us {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  color: white;
+}
+
+.about-showcase {
+  margin-top: -2px;
+  padding: 100px 100px;
+  background-color: $themeColor;
+  color: white;
+}
+
+.about-showcase-icon {
+  height: 100%;
+}
+
+.about-me {
+  width: 50%;
+  right: 60px;
+  top: 35%;
+  position: absolute;
+  color: black;
+}
+
+.about-me-img {
+  background-image: url('./images/about2.jpg');
+  height: 70vh;
+}
+
+.item-hover:hover {
+  background-color: blue;
+  font-weight: bolder;
+}
+
+.item-hover:hover div p {
+  color: white;
+}

@@ -1,0 +1,19 @@
+@import './colors';
+
+.btn {
+  background-color: $themeColor;
+  border: none;
+  outline: none;
+  border-radius: 1px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: $themeColor;
+  color: white;
+}
+
+.btn-lg {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}

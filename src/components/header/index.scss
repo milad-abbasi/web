@@ -1,0 +1,19 @@
+@import '../colors';
+
+.navbar-brand img {
+  height: 32px;
+}
+
+.nav-item {
+  margin: 0 16px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.active-link,
+.nav-link:active,
+.nav-link:hover {
+  color: $themeColor;
+}
